@@ -16,5 +16,5 @@ def printRecord(ip):
     print(f"[+] Latitude: {lat}, Longitude: {longitude}")
 
 
-ip = "37.117.184.78"  # Enter an IP
+ip = int(input("Enter the IP: "))  # Enter an IP
 printRecord(ip)
