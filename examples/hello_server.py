@@ -10,6 +10,6 @@ def hello():
 
 
 @app.route("/hello")
-def hello():
+def hello_json():
     d = {"greeting": "hello", "to": "world"}
     return jsonify(d)

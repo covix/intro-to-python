@@ -1,6 +1,6 @@
 import geoip2.database
 
-reader = geoip2.database.Reader("./GeoLite2-City_20191001/GeoLite2-City.mmdb")
+reader = geoip2.database.Reader("./data/GeoLite2-City_20191001/GeoLite2-City.mmdb")
 
 
 def printRecord(ip):
