@@ -14,6 +14,13 @@ print()
 
 # complementing a strand of DNA
 s = "AAAACCCGGT"
-print(s[::-1].replace("A", "t").replace("C", "g").replace("G", "c").replace("T", "a").upper())
+print(
+    s[::-1]
+    .replace("A", "t")
+    .replace("C", "g")
+    .replace("G", "c")
+    .replace("T", "a")
+    .upper()
+)
 print()
 
