@@ -22,6 +22,6 @@ for name, height in mountains.items():
 print()
 
 print("Mountain descriptions sorted alphabetically:")
-for name, height in sorted(mountains.items(), key=lambda x: x[0]):
+for name, height in sorted(mountains.items()):
     print(f"\t{name} is {height} meters high")
 print()

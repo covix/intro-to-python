@@ -7,6 +7,6 @@ while len(l) > 1:
     s += a + b
     n += 1
 
-    print(f"\t current sum is: {s}, just added {a} and {b}")
+    print(f"\t current sum is: {a + b}, just added {a} and {b}")
 
 print(f"there are {n} pairs and then total sum is: {s}")
